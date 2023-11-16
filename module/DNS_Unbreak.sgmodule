@@ -1,0 +1,43 @@
+#!name=🌐 DNS Enhanced for Ali
+#!desc=修复某些加密DNS对AliCDN的错误解析，使所有ali系域名分流到Alidns以获取正确的结果。
+ # > 域名来自 https://raw.tuu.cat/VirgilClyne/GetSomeFries/main/sgmodule/DNS.sgmodule
+ 
+[DNS]
+
+# > 阿里巴巴
+*.alibaba.cn = server:223.5.5.5 // 阿里巴巴
+*.alibaba.com.cn = server:223.5.5.5, 2400:3200::1 // 阿里巴巴
+*.china.alibaba.com = server:223.5.5.5, 2400:3200::1 // Alibaba 中国
+*.1688.com = server:223.5.5.5, 2400:3200::1 // 1688
+*.taobao.com = server:223.5.5.5, 2400:3200::1 // 淘宝
+*.tbcache.com = server:223.5.5.5, 2400:3200::1 // 淘宝 缓存
+*.tmall.com = server:223.5.5.5, 2400:3200::1 // 天猫
+*.alicdn.com = server:223.5.5.5, 2400:3200::1 // 阿里 CDN
+*.alikunlun.com = server:223.5.5.5, 2400:3200::1 // 阿里昆仑
+*.aliapp.com = server:223.5.5.5, 2400:3200::1 // 云引擎应用平台
+*.aliapp.org = server:223.5.5.5, 2400:3200::1 // 上云平台
+*.alibabausercontent.com = server:223.5.5.5, 2400:3200::1 // 阿里用户上传资料
+*.mmstat.com = server:223.5.5.5, 2400:3200::1 // mmstat 数据统计 广告追踪
+tb.cn = server:223.5.5.5, 2400:3200::1 // 淘宝短网址
+
+# > 阿里云
+*.aliyun.* = server:223.5.5.5, 2400:3200::1 // 阿里云
+*.aliyuncdn.* = server:223.5.5.5, 2400:3200::1 // 阿里云 CDN
+*.aliyuncs.com = server:223.5.5.5, 2400:3200::1 // 阿里云 API 服务
+*.aliyunddos????.com = server:223.5.5.5, 2400:3200::1 // 阿里云 DDoS防护
+*.aliyundrive.com = server:223.5.5.5, 2400:3200::1 // 阿里云盘
+*.aliyundun.com = server:223.5.5.5, 2400:3200::1 // 阿里云盾
+*.aliyundunwaf.com = server:223.5.5.5, 2400:3200::1 // 阿里云盾 Web 应用防火墙
+*.aliyun-inc.com = server:223.5.5.5, 2400:3200::1 // 阿里云 内部
+
+# > 蚂蚁集团
+*.antgroup.com = server:223.5.5.5, 2400:3200::1 // 蚂蚁集团
+*.antfin.com = server:223.5.5.5, 2400:3200::1 // 蚂蚁金服
+*.antfinancial.com = server:223.5.5.5, 2400:3200::1 // 蚂蚁金服
+*.alipay.com = server:223.5.5.5, 2400:3200::1 // 支付宝
+*.alipay.com.cn = server:223.5.5.5, 2400:3200::1 // 支付宝
+*.alipaydns.com = server:223.5.5.5, 2400:3200::1 // 支付宝 HTTP DNS
+*.alipayeshop.com = server:223.5.5.5, 2400:3200::1 // 支付宝 商家资源
+*.alipaylog.com = server:223.5.5.5, 2400:3200::1 // 支付宝 Mdap
+*.alipayobjects.com = server:223.5.5.5, 2400:3200::1 // 支付宝 静态资源
+*.alipay-eco.com = server:223.5.5.5, 2400:3200::1 // 支付宝 开放技术生态体系

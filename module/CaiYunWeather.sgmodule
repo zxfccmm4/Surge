@@ -1,0 +1,8 @@
+#!name=彩云天气Notification🥳
+#!desc=随时了解天气状况☁️使用Surge通知您身边的天气怎么样
+#使用本模块即可通过Surge定时接受天气通知
+[MITM]
+hostname = %APPEND% weather-data.apple.com, api.weather.com
+[Script]
+彩云天气 = type=cron,cronexp=* 6-22/2 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,script-update-interval=0
+彩云天气 = type=http-request,pattern=https://((weather-data.apple)|(api.weather)).com,requires-body=0,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,script-update-interval=0
