@@ -1,0 +1,9 @@
+#!name=全局Github加速访问
+#!desc=由 https://gh.surgee.me 提供的公益Github反向代理
+
+
+[URL Rewrite]
+^https:\/\/raw\.githubusercontent\.com\/(.*?)$ https://gh.surgee.me/$1 302
+
+[MitM]
+hostname = raw.githubusercontent.com
