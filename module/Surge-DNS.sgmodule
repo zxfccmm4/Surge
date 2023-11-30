@@ -1,0 +1,9 @@
+#!name=Surge DNS
+#!desc=Surge DNS
+
+
+[Script]
+fuck-off-dns-anti-crack = type=dns,script-path=fuck-off-dns-anti-crack.js
+
+[Host]
+* = script:fuck-off-dns-anti-crack
