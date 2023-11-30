@@ -3,7 +3,7 @@
 
 
 [Script]
-fuck-off-dns-anti-crack = type=dns,script-path=fuck-off-dns-anti-crack.js
+fuck-off-dns-anti-crack = type=dns,script-path=https://raw.githubusercontent.com/zxfccmm4/Surge/main/module/js/Surge-DNS.js
 
 [Host]
 * = script:fuck-off-dns-anti-crack
