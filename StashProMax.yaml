@@ -22,7 +22,6 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://cp.cloudflare.com/generate_204
-
 dns:
   enable: true
   ipv6: true
@@ -49,7 +48,6 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-
 proxies: []
 proxy-groups:
   - name: 节点选择
@@ -71,6 +69,7 @@ proxy-groups:
     proxies: null
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Available.png
     use: [SF]
+    filter: ^((?!套餐|到期|余额|剩余|流量|官网).)*$
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -79,6 +78,7 @@ proxy-groups:
     proxies: null
     use: [SF]
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Auto_Speed.png
+    filter: ^((?!套餐|到期|余额|剩余|流量|官网).)*$
   - name: 电报消息
     type: select
     proxies:
@@ -171,7 +171,7 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 美国节点
-      - 其他节点   
+      - 其他节点
       - 手动切换
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Instagram.png
   - name: Twitter
@@ -186,6 +186,15 @@ proxy-groups:
       - 美国节点
       - 手动切换
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Twitter.png
+  - icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
+    name: TikTok
+    proxies:
+      - 节点选择
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+      - 狮城节点
+    type: select
   - name: 谷歌FCM
     type: select
     proxies:
@@ -198,25 +207,6 @@ proxy-groups:
       - 日本节点
       - 手动切换
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png
-      - icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
-    name: TikTok
-    proxies:
-      - 节点选择
-      - 日本节点
-      - 美国节点
-      - 台湾节点
-      - 狮城节点
-    type: select
-  - name: TikTok
-    type: select
-    proxies:
-      - 节点选择
-      - 美国节点
-      - 台湾节点
-      - 狮城节点
-      - 日本节点
-      - 手动切换
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
   - name: WeChat
     type: select
     proxies:
@@ -336,50 +326,41 @@ proxy-groups:
   - name: 其他节点
     type: select
     proxies: null
-    filter: ^((?!🇭🇰|港|HK|Hong|🇹🇼|台|TW|Tai|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇰🇷|韩|KR|KOR|Korea|🇺🇸|美|US|States|American|🇬🇧|英国|英|英格兰|UK|United Kingdom).)*$
+    filter: ^((?!套餐|到期|余额|剩余|流量|官网|🇭🇰|港|HK|Hong|🇹🇼|台|TW|Tai|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇰🇷|韩|KR|KOR|Korea|🇺🇸|美|US|States|American|🇬🇧|英国|英|英格兰|UK|United Kingdom).)*$
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Turkey.png
     use: [SF]
-    
-
 rule-providers:
   # 远程规则集
-        
   Apple:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Apple.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
     path: ./ruleset/Apple.yaml
     interval: 86400
-
   China:
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
     path: ./ruleset/ChinaDomain.yaml
     interval: 86400
-
   ChinaIp:
     type: http
     behavior: ipcidr
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaIp.yaml
     path: ./ruleset/ChinaIp.yaml
     interval: 86400
-
-
   GoogleFCM:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleFCM/GoogleFCM.yaml
     path: ./ruleset/GoogleFCM.yaml
     interval: 86400
-
   Netflix:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml
     path: ./ruleset/Netflix.yaml
     interval: 86400
-
   Netflix_IP:
     type: http
     behavior: ipcidr
@@ -387,97 +368,78 @@ rule-providers:
     path: ./ruleset/Netflix_IP.yaml
     interval: 86400
     format: text
-    
   Microsoft:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
     path: ./ruleset/Microsoft.yaml
     interval: 86400
-
   OneDrive:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
     path: ./ruleset/OneDrive.yaml
     interval: 86400
-
-  TikTok:
+  WeChat:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
-    path: ./ruleset/TikTok.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml
+    path: ./ruleset/WeChat.yaml
     interval: 86400
-
   BiliBili:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
     path: ./ruleset/BiliBili.yaml
     interval: 86400
-
   Telegram:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
     path: ./ruleset/Telegram.yaml
     interval: 86400
-
   OpenAI:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
     path: ./ruleset/OpenAI.yaml
     interval: 86400
-    
-  Twitter: 
+  Twitter:
     type: http
     behavior: classical
     url: https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml
     path: ./ruleset/Twitter.yaml
     interval: 86400
-
   YouTube:
     type: http
     behavior: classical
     url: https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
     path: ./ruleset/YouTube.yaml
     interval: 86400
-
-  ChinaMedia: 
+  ChinaMedia:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml
     path: ./ruleset/ChinaMedia.yaml
-    interval: 86400  
-
+    interval: 86400
   GlobalMedia: # 国际媒体
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.yaml
     path: ./ruleset/Streaming.yaml
     interval: 86400
-    
   Streaming: # 国际媒体
     type: http
     behavior: domain
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain_For_Clash.txt
     path: ./ruleset/Streaming.yaml
     interval: 86400
-
-  TikTok:
-    behavior: classical
-    format: yaml
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
-    
   Proxy:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy.yaml
     path: ./ruleset/Proxy.yaml
     interval: 86400
-
   Proxy_Domain:
     type: http
     behavior: domain
@@ -485,48 +447,47 @@ rule-providers:
     path: ./ruleset/Proxy_Domain_For_Clash.yaml
     interval: 86400
     format: txt
-
-  Instagram: 
+  Instagram:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Instagram/Instagram.yaml
     path: ./ruleset/Instagram.yaml
     interval: 86400
-
-  Threads: 
+  Threads:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Threads/Threads.yaml
     path: ./ruleset/Threads.yaml
     interval: 86400
-
-  Speedtest: 
+  Speedtest:
     type: http
     behavior: classical
     url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
     path: ./ruleset/Speedtest.yaml
     interval: 86400
-
-  NetEaseMusic: 
+  NetEaseMusic:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/NetEaseMusic/NetEaseMusic.yaml
     path: ./ruleset/NetEaseMusic.yaml
     interval: 86400
-
-
   Lan: # 局域网
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
     path: ./ruleset/lan.yaml
     interval: 86400
-    
+  TikTok:
+    behavior: classical
+    format: yaml
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
 rules:
+  - RULE-SET,TikTok,TikTok
   # 分流规则引用
   - RULE-SET,Apple,苹果服务
   - RULE-SET,China,全球直连
-  - RULE-SET,ChinaIp,全球直连,no-resolve  
+  - RULE-SET,ChinaIp,全球直连,no-resolve
   - RULE-SET,GoogleFCM,谷歌FCM
   - RULE-SET,Netflix,奈飞视频
   - RULE-SET,Netflix_IP,奈飞视频,no-resolve
@@ -548,6 +509,5 @@ rules:
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,NetEaseMusic,网易音乐
   - RULE-SET,Twitter,Twitter
-  - RULE-SET,TikTok,TikTok
   - GEOIP,CN,DIRECT
   - MATCH,漏网之鱼
