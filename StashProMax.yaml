@@ -533,5 +533,6 @@ rules:
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,NetEaseMusic,网易音乐
   - RULE-SET,Twitter,Twitter
+  - RULE-SET,TikTok,TikTok
   - GEOIP,CN,DIRECT
   - MATCH,漏网之鱼
