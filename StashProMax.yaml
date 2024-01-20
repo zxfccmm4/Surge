@@ -198,7 +198,7 @@ proxy-groups:
       - 日本节点
       - 手动切换
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png
-      - name: TikTok
+  - name: TikTok
     type: select
     proxies:
       - 节点选择
@@ -207,7 +207,7 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 手动切换
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/TikTok.png
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
   - name: WeChat
     type: select
     proxies:
