@@ -1,0 +1,398 @@
+vif_only: true
+hide_vpn_icon: true
+dns_servers:
+- system
+- 119.29.29.29
+- 233.5.5.5
+hosts:
+  doh.pub: 1.12.12.12
+  dns.alidns.com: 223.5.5.5
+  dot.pub: 1.12.12.12
+secure_dns:
+  servers:
+  - https://dns.alidns.com/dns-query
+  ecs: false
+  public_ip_lookup_url: ''
+policy_groups:
+- select:
+    name: 节点选择
+    policies:
+    - 香港节点
+    - 日本节点
+    - 美国节点
+    - 台湾节点
+    - 狮城节点
+    - 英国节点
+    - 其他节点
+    - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Clubhouse.png
+- select:
+    name: 手动切换
+    policies:
+    - 所有订阅
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
+- auto_test:
+    name: 自动选择
+    policies:
+    - 所有订阅
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Auto_Speed.png
+- select:
+    name: 电报消息
+    policies:
+    - 香港节点
+    - 日本节点
+    - 美国节点
+    - 台湾节点
+    - 狮城节点
+    - 英国节点
+    flatten: false
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Telegram.png
+- select:
+    name: ChatGPT
+    policies:
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    flatten: false
+    icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/openai.png
+- select:
+    name: 油管视频
+    policies:
+    - 香港节点
+    - 日本节点
+    - 狮城节点
+    - 台湾节点
+    - 美国节点
+    - 英国节点
+    flatten: false
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/YouTube.png
+- select:
+    name: 奈飞视频
+    policies:
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    - 美国节点
+    - 英国节点
+    - 其他节点
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png
+- select:
+    name: 哔哩哔哩
+    policies:
+    - DIRECT
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/bilibilitv.png
+- select:
+    name: 国外视频
+    policies:
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    - 美国节点
+    - 英国节点
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Diaspora.png
+- select:
+    name: 国内视频
+    policies:
+    - DIRECT
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/TencentVideo.png
+- select:
+    name: Instagram
+    policies:
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    - 美国节点
+    - 英国节点
+    - 其他节点
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Instagram.png
+- select:
+    name: Twitter
+    policies:
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    - 美国节点
+    - 英国节点
+    - 其他节点
+    flatten: true
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Twitter.png
+- select:
+    name: Tiktok
+    policies:
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    - 美国节点
+    - 英国节点
+    - 其他节点
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
+- select:
+    name: GoogleFCM
+    policies:
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    - 美国节点
+    - 英国节点
+    - 其他节点
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png
+- select:
+    name: WeChat
+    policies:
+    - DIRECT
+    - 香港节点
+    - 狮城节点
+    - 台湾节点
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/WeChat.png
+- select:
+    name: 网易云音乐
+    policies:
+    - DIRECT
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/NetEase_Music.png
+- select:
+    name: OneDrive
+    policies:
+    - DIRECT
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    - 美国节点
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/ASN.png
+- select:
+    name: 微软服务
+    policies:
+    - DIRECT
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    - 美国节点
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Microsoft.png
+- select:
+    name: 苹果服务
+    policies:
+    - DIRECT
+    - 香港节点
+    - 美国节点
+    icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/apple.png
+- select:
+    name: 全球直连
+    policies:
+    - DIRECT
+    icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/londoneye.png
+    hidden: true
+- select:
+    name: Speedtest
+    policies:
+    - DIRECT
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 狮城节点
+    - 美国节点
+    - 英国节点
+    - 其他节点
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Speedtest.png
+- select:
+    name: 香港节点
+    policies:
+    - 所有订阅
+    flatten: true
+    filter: 港|🇭🇰|香港|HK|Hong
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Hong_Kong.png
+- select:
+    name: 台湾节点
+    policies:
+    - 所有订阅
+    flatten: true
+    filter: 台|🇨🇳|台湾|TW|Tai
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Taiwan.png
+- select:
+    name: 日本节点
+    policies:
+    - 所有订阅
+    flatten: true
+    filter: 日|🇯🇵|日本|JP|Japan
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Japan.png
+- select:
+    name: 狮城节点
+    policies:
+    - 所有订阅
+    flatten: true
+    filter: 坡|🇸🇬|新加坡|狮城|SG|Singapore
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Singapore.png
+- select:
+    name: 美国节点
+    policies:
+    - 所有订阅
+    flatten: true
+    filter: 美|🇺🇸|美国|US|States|American
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_States.png
+- auto_test:
+    name: 英国节点
+    policies:
+    - 所有订阅
+    flatten: true
+    filter: 🇬🇧|英国|英|英格兰|UK|United Kingdom
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_Kingdom.png
+- select:
+    name: 其他节点
+    policies:
+    - 所有订阅
+    flatten: true
+    filter: ^((?!套餐|到期|余额|剩余|流量|官网|🇭🇰|港|HK|Hong|🇹🇼|台|TW|Tai|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇰🇷|韩|KR|KOR|Korea|🇺🇸|美|US|States|American|🇬🇧|英国|英|英格兰|UK|United Kingdom).)*$
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Turkey.png
+- select:
+    name: 漏网之鱼
+    policies:
+    - DIRECT
+    - 香港节点
+    - 日本节点
+    - 台湾节点
+    - 美国节点
+    - 狮城节点
+    - 英国节点
+    - 其他节点
+    icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/betahub.png
+- external:
+    name: 所有订阅
+    type: select
+    urls:
+    - 替换成你的订阅
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VIP.png
+rules:
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Facebook/Facebook.list
+    policy: Instagram
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Bing/Bing.list
+    policy: ChatGPT
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tesla/Tesla.list
+    policy: DIRECT
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/RuleList/DOMAlN/Direct.list
+    policy: DIRECT
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
+    policy: 油管视频
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
+    policy: DIRECT
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEaseMusic/NetEaseMusic.list
+    policy: 网易云音乐
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
+    policy: 奈飞视频
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
+    policy: 微软服务
+- rule_set:
+    match: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix_IP.txt
+    policy: 奈飞视频
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list
+    policy: 哔哩哔哩
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list
+    policy: OneDrive
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleFCM/GoogleFCM.list
+    policy: GoogleFCM
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Instagram/Instagram.list
+    policy: Instagram
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Threads/Threads.list
+    policy: Instagram
+- rule_set:
+    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia.list
+    policy: 国外视频
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list
+    policy: WeChat
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaDNS/ChinaDNS.list
+    policy: DIRECT
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list
+    policy: Tiktok
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list
+    policy: 国内视频
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list
+    policy: Speedtest
+- domain_regex:
+    match: ^ad\..*|^ads\..*
+    policy: REJECT
+- rule_set:
+    match: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    policy: REJECT
+- rule_set:
+    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list
+    policy: GoogleFCM
+- rule_set:
+    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list
+    policy: 电报消息
+- rule_set:
+    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list
+    policy: Twitter
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleSearch/GoogleSearch.list
+    policy: 油管视频
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
+    policy: ChatGPT
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list
+    policy: 苹果服务
+- rule_set:
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_Domain.list
+    policy: 苹果服务
+- domain:
+    match: ifconfig.me
+    policy: 全球直连
+- domain_suffix:
+    match: cn
+    policy: 全球直连
+- geoip:
+    match: CN
+    policy: 全球直连
+- ip_cidr:
+    match: 192.168.0.0/16
+    policy: 全球直连
+- ip_cidr:
+    match: 10.0.0.0/8
+    policy: 全球直连
+- ip_cidr:
+    match: 127.0.0.0/8
+    policy: 全球直连
+- ip_cidr:
+    match: 172.16.0.0/12
+    policy: 全球直连
+- ip_cidr:
+    match: 192.128.0.0/16
+    policy: 全球直连
+- ip_cidr:
+    match: 224.0.0.0/24
+    policy: 全球直连
+mitm:
+  enabled: true
+modules:
+- url: https://github.com/DualSubs/YouTube/raw/main/modules/DualSubs.YouTube.sgmodule
+  enabled: true
+- url: https://raw.githubusercontent.com/Keywos/rule/main/script/net_test/nt.plugin
+  enabled: true
