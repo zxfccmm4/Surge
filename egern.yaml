@@ -291,6 +291,7 @@ rules:
 - rule_set:
     match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list
     policy: 哔哩哔哩
+- rule_set:
     match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list
     policy: OneDrive
 - rule_set:
