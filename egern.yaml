@@ -1,3 +1,18 @@
+vif_only: true
+hide_vpn_icon: true
+dns_servers:
+- system
+- 119.29.29.29
+- 233.5.5.5
+hosts:
+  dot.pub: 1.12.12.12
+  dns.alidns.com: 223.5.5.5
+  doh.pub: 1.12.12.12
+secure_dns:
+  servers:
+  - https://dns.alidns.com/dns-query
+  ecs: false
+  public_ip_lookup_url: ''
 policy_groups:
 - select:
     name: 节点选择
@@ -328,10 +343,7 @@ rules:
     match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list
     policy: GoogleFCM
 - rule_set:
-    match: https://ruleset.skk.moe/Clash/non_ip/telegram.txt
-    policy: 电报消息
-- rule_set:
-    match: https://ruleset.skk.moe/Clash/ip/telegram.txt
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Telegram.yaml
     policy: 电报消息
 - rule_set:
     match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list
