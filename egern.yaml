@@ -48,7 +48,7 @@ policy_groups:
     flatten: false
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Telegram.png
 - select:
-    name: ChatGPT
+    name: OpenAI
     policies:
     - 美国节点
     - 狮城节点
@@ -274,41 +274,59 @@ policy_groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VIP.png
 rules:
 - rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Facebook/Facebook.list
-    policy: Instagram
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Bing/Bing.list
-    policy: ChatGPT
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tesla/Tesla.list
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/APNs.yaml
     policy: DIRECT
 - rule_set:
-    match: https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/RuleList/DOMAlN/Direct.list
-    policy: DIRECT
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Ads_ConnersHua.yaml
+    policy: REJECT
 - rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
-    policy: 油管视频
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Hijacking_ConnersHua.yaml
+    policy: REJECT
 - rule_set:
-    match: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
-    policy: DIRECT
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Tracking_ConnersHua.yaml
+    policy: REJECT
 - rule_set:
-    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEaseMusic/NetEaseMusic.list
-    policy: 网易云音乐
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/OpenAI.yaml
+    policy: OpenAI
 - rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
-    policy: 奈飞视频
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Apple.yaml
+    policy: 苹果服务
 - rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Github.yaml
     policy: 微软服务
 - rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/OneDrive.yaml
+    policy: Onedrive
+- rule_set:
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Microsoft.yaml
+    policy: 微软服务
+- rule_set:
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/YouTube.yaml
+    policy: 油管视频
+- rule_set:
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Google.yaml
+    policy: GoogleFCM
+- rule_set:
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Telegram.yaml
+    policy: 电报消息
+- rule_set:
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Twitter.yaml
+    policy: Twitter
+- rule_set:
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/ProxyMedia.yaml
+    policy: 国外视频
+- rule_set:
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/ProxyGFW.yaml
+    policy: 国外网站
+- rule_set:
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Bilibili.yaml
     policy: 哔哩哔哩
 - rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list
-    policy: OneDrive
+    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Lan.yaml
+    policy: DIRECT
 - rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleFCM/GoogleFCM.list
-    policy: GoogleFCM
+    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list
+    policy: WeChat
 - rule_set:
     match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Instagram/Instagram.list
     policy: Instagram
@@ -316,50 +334,19 @@ rules:
     match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Threads/Threads.list
     policy: Instagram
 - rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia.list
-    policy: 国外视频
+    match: https://gh.surgee.me/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEaseMusic/NetEaseMusic.list
+    policy: 网易云音乐
 - rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list
-    policy: WeChat
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaDNS/ChinaDNS.list
-    policy: DIRECT
-- rule_set:
-    match: https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list
-    policy: Tiktok
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list
-    policy: 国内视频
+    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Facebook/Facebook.list
+    policy: Instagram
 - rule_set:
     match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list
     policy: Speedtest
-- domain_regex:
-    match: ^ad\..*|^ads\..*
-    policy: REJECT
-- rule_set:
-    match: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-    policy: REJECT
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list
-    policy: GoogleFCM
-- rule_set:
-    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Telegram.yaml
-    policy: 电报消息
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list
-    policy: Twitter
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
-    policy: 油管视频
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
-    policy: ChatGPT
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list
-    policy: 苹果服务
-- rule_set:
-    match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_Domain.list
-    policy: 苹果服务
+- geoip:
+    match: CN
+    policy: DIRECT
+- default:
+    policy: 兜底分流
 - domain:
     match: ifconfig.me
     policy: 全球直连
