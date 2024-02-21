@@ -123,7 +123,7 @@ policy_groups:
     - 美国节点
     - 英国节点
     - 其他节点
-    flatten: true
+    flatten: false
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Twitter.png
 - select:
     name: Tiktok
