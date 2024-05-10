@@ -1,3 +1,5 @@
+# 写在前面
+如果对你有帮助，可以点击 Star。
 # 模块
 1. https://github.com/VirgilClyne/iRingo/raw/main/sgmodule/Siri.sgmodule
 2. https://github.com/VirgilClyne/iRingo/raw/main/sgmodule/Location.sgmodule
