@@ -3,6 +3,12 @@
 
 ---
 
+## ✈️
+1. [在人间](https://dashboard.zrj97.xyz/#/register?code=4U6SUhR7)
+2. [Tannel](https://tannel.xn--6kro9vzxa373b.com//auth/register?code=5wyV)
+
+---
+
 ## 规则引用
 以下是本项目引用的规则资源：
 
