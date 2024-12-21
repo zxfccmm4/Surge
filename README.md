@@ -5,7 +5,6 @@
 <!-- GitHub stars badge -->
 ![GitHub stars](https://img.shields.io/github/stars/zxfccmm4/Surge?style=social)
 
----
 
 ## ✈️ 推荐链接
 
@@ -14,7 +13,6 @@
 - [在人间](https://dashboard.zrj97.xyz/#/register?code=4U6SUhR7)
 - [Tannel](https://tannel.xn--6kro9vzxa373b.com//auth/register?code=5wyV)
 
----
 
 ## 📚 规则资源
 
@@ -26,7 +24,6 @@
 - [TikTok-Unlock](https://github.com/Semporia/TikTok-Unlock)
 - [Profiles](https://github.com/ke1ewang/Profiles)
 
----
 
 ## 🖼️ 图标包资源
 
@@ -47,7 +44,6 @@
 - [KeLee Icon](https://gitlab.com/lodepuly/iconlibrary/-/raw/main/KeLee_icon.json)
 - [LigeIcon](https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/ligeicon.json)
 
----
 
 ## 🔧 模块引用
 
@@ -62,7 +58,6 @@
 - [All-in-One 2.x](https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/Surge/module/All-in-One-2.x.sgmodule)
 - [SurgePro](https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/Surge/module/SurgePro.sgmodule)
 
----
 
 ## 🍺 请我喝一杯
 
@@ -70,7 +65,6 @@
 
 ![二维码](https://private-user-images.githubusercontent.com/17553115/397946958-2445ab58-ada3-45c3-a737-5bf1ad258f24.JPEG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ4MDc0NTYsIm5iZiI6MTczNDgwNzE1NiwicGF0aCI6Ii8xNzU1MzExNS8zOTc5NDY5NTgtMjQ0NWFiNTgtYWRhMy00NWMzLWE3MzctNWJmMWFkMjU4ZjI0LkpQRUc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIyMVQxODUyMzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OGQyMWExZjM4ZmFhZDhiZDk2YjRiNTc0NTU5ZjhiMTNiOGU3MzJmZDMzYWNlNDRiNTA4MTBmM2M2YzY5MGM0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UyTgAVZDavZAlOH1XAdTC5sCHNVSDMwzgiH9Q_aaZEw)
 
----
 
 ## 🤝 感谢
 
