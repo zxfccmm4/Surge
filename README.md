@@ -26,37 +26,43 @@
 
 ## 🌄 策略图标订阅合集
 
-| 图标合集名称      | 链接                                                                                 |
-|------------------|--------------------------------------------------------------------------------------|
-| **整合图标合集**    | [整合图标合集](https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/TuBiaoDingYue.json)  |
-| **fmz200图标合集**  | [fmz200图标合集](https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json) |
-| **QureColor图标合集** | [QureColor图标合集](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor.json) |
-| **Quremini图标合集** | [Quremini图标合集](https://raw.githubusercontent.com/Koolson/Qure/master/Other/Quremini.json) |
-| **QureLight-All图标合集** | [QureLight-All图标合集](https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json) |
-| **离歌图标合集**    | [离歌图标合集](https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/ligeicon-surge.json) |
-| **KeLee旗帜图标合集** | [KeLee旗帜图标合集](https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Flag_icon/ColorfulStaticFlag.json) |
+<table>
+  <tr>
+    <td valign="top">
+      <h4>图标合集</h4>
+      <table>
+        <tr><td><strong>整合图标合集</strong></td><td><a href="https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/TuBiaoDingYue.json">整合图标合集</a></td></tr>
+        <tr><td><strong>fmz200图标合集</strong></td><td><a href="https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json">fmz200图标合集</a></td></tr>
+        <tr><td><strong>QureColor图标合集</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor.json">QureColor图标合集</a></td></tr>
+        <tr><td><strong>Quremini图标合集</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/Quremini.json">Quremini图标合集</a></td></tr>
+        <tr><td><strong>QureLight-All图标合集</strong></td><td><a href="https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json">QureLight-All图标合集</a></td></tr>
+        <tr><td><strong>离歌图标合集</strong></td><td><a href="https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/ligeicon-surge.json">离歌图标合集</a></td></tr>
+        <tr><td><strong>KeLee旗帜图标合集</strong></td><td><a href="https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Flag_icon/ColorfulStaticFlag.json">KeLee旗帜图标合集</a></td></tr>
+      </table>
+    </td>
+    <td valign="top">
+      <h4>图标分类</h4>
+      <table>
+        <tr><td><strong>彩色小图标</strong></td><td><a href="https://raw.githubusercontent.com/Orz-3/mini/master/mini.json">彩色小图标</a></td></tr>
+        <tr><td><strong>Color+ 图标</strong></td><td><a href="https://raw.githubusercontent.com/Orz-3/mini/master/Color%2B.json">Color+ 图标</a></td></tr>
+        <tr><td><strong>mini Color 图标</strong></td><td><a href="https://raw.githubusercontent.com/Orz-3/mini/master/miniColor.json">mini Color 图标</a></td></tr>
+        <tr><td><strong>其它图标</strong></td><td><a href="https://raw.githubusercontent.com/Orz-3/mini/master/mini%2B.json">其它图标</a></td></tr>
+        <tr><td><strong>应用与游戏图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-AppGame.json">应用与游戏图标</a></td></tr>
+        <tr><td><strong>归档图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Archived.json">归档图标</a></td></tr>
+        <tr><td><strong>地区国旗图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Area.json">地区国旗图标</a></td></tr>
+        <tr><td><strong>常用图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Common.json">常用图标</a></td></tr>
+        <tr><td><strong>默认图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Default.json">默认图标</a></td></tr>
+        <tr><td><strong>禁止图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Inhibition.json">禁止图标</a></td></tr>
+        <tr><td><strong>流媒体图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Media.json">流媒体图标</a></td></tr>
+        <tr><td><strong>其它图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Other.json">其它图标</a></td></tr>
+        <tr><td><strong>服务器图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Server.json">服务器图标</a></td></tr>
+        <tr><td><strong>服务图标</strong></td><td><a href="https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json">服务图标</a></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
----
 
-### 彩色图标分类
-
-| 图标分类           | 链接                                                                                       |
-|-------------------|--------------------------------------------------------------------------------------------|
-| **彩色小图标**      | [彩色小图标](https://raw.githubusercontent.com/Orz-3/mini/master/mini.json)               |
-| **Color+ 图标**     | [Color+ 图标](https://raw.githubusercontent.com/Orz-3/mini/master/Color%2B.json)           |
-| **mini Color 图标** | [mini Color 图标](https://raw.githubusercontent.com/Orz-3/mini/master/miniColor.json)       |
-| **其它图标**        | [其它图标](https://raw.githubusercontent.com/Orz-3/mini/master/mini%2B.json)               |
-| **应用与游戏图标**  | [应用与游戏图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-AppGame.json) |
-| **归档图标**        | [归档图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Archived.json) |
-| **地区国旗图标**    | [地区国旗图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Area.json) |
-| **常用图标**        | [常用图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Common.json) |
-| **默认图标**        | [默认图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Default.json) |
-| **禁止图标**        | [禁止图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Inhibition.json) |
-| **流媒体图标**      | [流媒体图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Media.json) |
-| **其它图标**        | [其它图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Other.json) |
-| **服务器图标**      | [服务器图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Server.json) |
-| **服务图标**        | [服务图标](https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json) |
-  
 ## 🔧 模块引用
 
 项目中使用的模块：
