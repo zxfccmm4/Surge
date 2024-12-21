@@ -1,14 +1,13 @@
 # 🌟 欢迎 Star 本项目
 
-如果本项目对你有帮助，请点击 [Star](https://github.com/zxfccmm4/Surge) 支持我们！ 🙏
-
+如果本项目对你有帮助，请点击 [Star](https://github.com/zxfccmm4/Surge) 支持我们！ 
 <!-- GitHub stars badge -->
 ![GitHub stars](https://img.shields.io/github/stars/zxfccmm4/Surge?style=social)
 
 
 ## ✈️ 推荐链接
 
-以下是一些推荐的注册链接：
+以下是一些推荐✈️的注册链接：
 
 - [在人间](https://dashboard.zrj97.xyz/#/register?code=4U6SUhR7)
 - [Tannel](https://tannel.xn--6kro9vzxa373b.com//auth/register?code=5wyV)
