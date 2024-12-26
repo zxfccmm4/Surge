@@ -4,6 +4,15 @@
 <!-- GitHub stars badge -->
 ![GitHub stars](https://img.shields.io/github/stars/zxfccmm4/Surge?style=social)
 
+# Surge 引用链接
+1. https://raw.githubusercontent.com/zxfccmm4/Surge/main/Steve_NewSurge.conf
+2. https://raw.githubusercontent.com/zxfccmm4/Surge/main/Steve_SmartGroup.conf
+3. https://raw.githubusercontent.com/zxfccmm4/Surge/main/Surge_2024.conf
+4. https://raw.githubusercontent.com/zxfccmm4/Surge/main/Surge_2024_Emoji.conf
+5. https://raw.githubusercontent.com/zxfccmm4/Surge/refs/heads/main/SurgeProMax.conf
+以上引用链接请自行测试是否适合你的 Surge 版本。
+若你是最新版 Surge 用户直接使用第一个配置即可。
+
 
 ## ✈️ 推荐链接
 
