@@ -4,7 +4,7 @@
 <!-- GitHub stars badge -->
 ![GitHub stars](https://img.shields.io/github/stars/zxfccmm4/Surge?style=social)
 
-# Surge 引用链接
+## Surge 引用链接
 1. https://raw.githubusercontent.com/zxfccmm4/Surge/main/Steve_NewSurge.conf
 2. https://raw.githubusercontent.com/zxfccmm4/Surge/main/Steve_SmartGroup.conf
 3. https://raw.githubusercontent.com/zxfccmm4/Surge/main/Surge_2024.conf
@@ -15,6 +15,16 @@
 以上引用链接请自行测试是否适合你的 Surge 版本。
 若你是最新版 Surge 用户直接使用第一个配置即可。
 
+
+## 其余代理工具配置（可能不会及时更新）
+### Steve_Loon
+https://raw.githubusercontent.com/zxfccmm4/Surge/refs/heads/main/Steve_Loon.conf
+### Steve_QuantumultX
+https://raw.githubusercontent.com/zxfccmm4/Surge/refs/heads/main/Steve_QuantumultX.conf
+### Steve_StashProMax
+https://raw.githubusercontent.com/zxfccmm4/Surge/refs/heads/main/StashProMax.yaml
+### Steve_egern
+https://raw.githubusercontent.com/zxfccmm4/Surge/refs/heads/main/Steve_egern.yaml
 
 ## ✈️ 推荐链接
 
