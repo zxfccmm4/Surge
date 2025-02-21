@@ -30,8 +30,9 @@ https://raw.githubusercontent.com/zxfccmm4/Surge/refs/heads/main/Steve_egern.yam
 
 以下是一些推荐✈️的注册链接：
 
+- [WCloud](https://wcloud.me/register?aff=G0o8UOvu)
 - [在人间](https://dashboard.zrj97.xyz/#/register?code=4U6SUhR7)
-- [Tannel](https://tannel.xn--6kro9vzxa373b.com//auth/register?code=5wyV)
+- [Tannel](https://tannel.xn--cesw6hd3s99f.com/auth/register?code=5wyV)
 
 
 ## 📚 规则资源
