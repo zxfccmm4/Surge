@@ -397,6 +397,12 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
     path: ./ruleset/OneDrive.yaml
     interval: 86400
+  LinkedIn:
+    type: http
+    behavior: classical
+    url:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LinkedIn/LinkedIn.yaml
+    path: ./ruleset/LinkedIn.yaml
+    interval: 86400
   WeChat:
     type: http
     behavior: classical
@@ -542,6 +548,7 @@ rules:
   - RULE-SET,Streaming,国外视频
   - RULE-SET,GlobalMedia,国外视频
   - RULE-SET,Proxy,节点选择
+  - RULE-SET,LinkedIn,节点选择
   - RULE-SET,Proxy_Domain,节点选择
   - RULE-SET,Instagram,Instagram
   - RULE-SET,Threads,Instagram
