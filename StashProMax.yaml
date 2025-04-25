@@ -526,6 +526,9 @@ rule-providers:
 rules:
   - RULE-SET,TikTok,TikTok
   # 分流规则引用
+  - RULE-SET,Proxy,节点选择
+  - RULE-SET,LinkedIn,节点选择
+  - RULE-SET,Proxy_Domain,节点选择
   - RULE-SET,Apple,苹果服务
   - RULE-SET,China,全球直连
   - RULE-SET,ChinaIp,全球直连,no-resolve
@@ -547,9 +550,6 @@ rules:
   - RULE-SET,ChinaMedia,国内视频
   - RULE-SET,Streaming,国外视频
   - RULE-SET,GlobalMedia,国外视频
-  - RULE-SET,Proxy,节点选择
-  - RULE-SET,LinkedIn,节点选择
-  - RULE-SET,Proxy_Domain,节点选择
   - RULE-SET,Instagram,Instagram
   - RULE-SET,Threads,Instagram
   - RULE-SET,Speedtest,Speedtest
