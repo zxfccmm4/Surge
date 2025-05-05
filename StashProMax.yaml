@@ -1,5 +1,5 @@
 # By：Steve
-# 最后一次更新：2025.05.06
+# 最后一次更新：2025.04.24
 # TG频道：https://t.me/st7evee
 # 下载配置后,请手动添加机场订阅
 # 下载链接：https://raw.githubusercontent.com/zxfccmm4/Surge/main/StashProMax.yaml
@@ -62,16 +62,11 @@ proxy-groups:
       - 英国节点
       - 其他节点
       - 手动切换
+      - DIRECT
     icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/%24tash.png
   - name: 手动切换
     type: select
-    proxies:
-      - 'Vmess | Taipei'
-      - 'Vmess | Tokyo'
-      - 'Hysteria2 | Korea'
-      - 'Hysteria2 | Kor'
-      - 'SS | Taipei'
-      - 'SS | Tokyo'
+    proxies: null
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Available.png
     use: [SF]
     filter: ^((?!套餐|到期|余额|剩余|流量|官网).)*$
@@ -228,6 +223,18 @@ proxy-groups:
       - 节点选择
       - 自动选择
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/NetEase_Music.png
+  - name: Spotify
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 手动切换
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Spotify.png
   - name: 微软云盘
     type: select
     proxies:
@@ -299,9 +306,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Hong_Kong.png
   - name: 日本节点
     type: select
-    proxies:
-      - 'Vmess | Tokyo'
-      - 'SS | Tokyo'
+    proxies: null
     filter: 日|🇯🇵|日本|JP|Japan
     use: [SF]
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Japan.png
@@ -313,9 +318,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_States.png
   - name: 台湾节点
     type: select
-    proxies:
-      - 'Vmess | Taipei'
-      - 'SS | Taipei'
+    proxies: null
     filter: 台|🇨🇳|台湾|TW|Tai
     use: [SF]
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Taiwan.png
@@ -333,9 +336,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_Kingdom.png
   - name: 其他节点
     type: select
-    proxies:
-      - 'Hysteria2 | Korea'
-      - 'Hysteria2 | Kor'
+    proxies: null
     filter: ^((?!套餐|到期|余额|剩余|流量|官网|🇭🇰|港|HK|Hong|🇹🇼|台|TW|Tai|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇰🇷|韩|KR|KOR|Korea|🇺🇸|美|US|States|American|🇬🇧|英国|英|英格兰|UK|United Kingdom).)*$
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Turkey.png
     use: [SF]
@@ -345,6 +346,12 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
     path: ./ruleset/Apple.yaml
     interval: 86400
   China:
@@ -390,6 +397,12 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
     path: ./ruleset/OneDrive.yaml
     interval: 86400
+  LinkedIn:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LinkedIn/LinkedIn.yaml
+    path: ./ruleset/LinkedIn.yaml
+    interval: 86400
   WeChat:
     type: http
     behavior: classical
@@ -424,6 +437,12 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.yaml
+    path: ./ruleset/OpenAI.yaml
+    interval: 86400
+  Claude:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml
     path: ./ruleset/OpenAI.yaml
     interval: 86400
   Twitter:
@@ -507,6 +526,9 @@ rule-providers:
 rules:
   - RULE-SET,TikTok,TikTok
   # 分流规则引用
+  - RULE-SET,Proxy,节点选择
+  - RULE-SET,LinkedIn,节点选择
+  - RULE-SET,Proxy_Domain,节点选择
   - RULE-SET,Apple,苹果服务
   - RULE-SET,China,全球直连
   - RULE-SET,ChinaIp,全球直连,no-resolve
@@ -521,13 +543,13 @@ rules:
   - RULE-SET,OpenAI,AI
   - RULE-SET,Gemini,AI
   - RULE-SET,Copilot,AI
+  - RULE-SET,Claude,AI
   - RULE-SET,Telegram,电报消息
+  - RULE-SET,Spotify,Stopify
   - RULE-SET,YouTube,油管视频
   - RULE-SET,ChinaMedia,国内视频
   - RULE-SET,Streaming,国外视频
   - RULE-SET,GlobalMedia,国外视频
-  - RULE-SET,Proxy,节点选择
-  - RULE-SET,Proxy_Domain,节点选择
   - RULE-SET,Instagram,Instagram
   - RULE-SET,Threads,Instagram
   - RULE-SET,Speedtest,Speedtest
