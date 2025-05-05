@@ -524,8 +524,8 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
 rules:
-  - RULE-SET,TikTok,TikTok
   # 分流规则引用
+  - RULE-SET,TikTok,TikTok
   - RULE-SET,Proxy,节点选择
   - RULE-SET,LinkedIn,节点选择
   - RULE-SET,Proxy_Domain,节点选择
@@ -547,9 +547,9 @@ rules:
   - RULE-SET,Telegram,电报消息
   - RULE-SET,Spotify,Spotify
   - RULE-SET,YouTube,油管视频
-  - RULE-SET,ChinaMedia,国内视频
-  - RULE-SET,Streaming,国外视频
-  - RULE-SET,GlobalMedia,国外视频
+  - RULE-SET,ChinaMedia,国内媒体
+  - RULE-SET,Streaming,国外媒体
+  - RULE-SET,GlobalMedia,国外媒体
   - RULE-SET,Instagram,Instagram
   - RULE-SET,Threads,Instagram
   - RULE-SET,Speedtest,Speedtest
