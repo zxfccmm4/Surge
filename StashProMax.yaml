@@ -1,5 +1,5 @@
 # By：Steve
-# 最后一次更新：2025.04.24
+# 最后一次更新：2025.05.06
 # TG频道：https://t.me/st7evee
 # 下载配置后,请手动添加机场订阅
 # 下载链接：https://raw.githubusercontent.com/zxfccmm4/Surge/main/StashProMax.yaml
@@ -334,7 +334,7 @@ proxy-groups:
     filter: 🇬🇧|英国|英|英格兰|UK|United Kingdom
     use: [SF]
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_Kingdom.png
-  - name: 韩国节点
+   - name: 韩国节点
     type: select
     proxies: null
     use: [SF]
@@ -346,15 +346,6 @@ proxy-groups:
     use: [SF]
     filter: ^((?!🇭🇰|港|HK|Hong|🇹🇼|台|TW|Tai|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇺🇸|美|US|States|American|🇬🇧|英国|英|英格兰|UK|United Kingdom|韩|韩国|Korea|KR|🇰🇷).)*$
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Turkey.png
-    use: [SF]
-
-    type: select
-    proxies: null
-    use: [SF]
-    filter: 韩|韩国|Korea|KR|🇰🇷
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/South_Korea.png
-    use: [SF]
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Singapore.png
 rule-providers:
   # 远程规则集
   Apple:
@@ -560,11 +551,10 @@ rules:
   - RULE-SET,Copilot,AI
   - RULE-SET,Claude,AI
   - RULE-SET,Telegram,电报消息
-  - RULE-SET,Spotify,Stopify
+  - RULE-SET,Spotify,Spotify  
   - RULE-SET,YouTube,油管视频
-  - RULE-SET,ChinaMedia,国内媒体  原来是 国内视频
-  - RULE-SET,Streaming,国外媒体  原来是 国外视频
-  - RULE-SET,GlobalMedia,国外媒体  原来是 国外视频
+  - RULE-SET,Streaming,国外媒体  
+  - RULE-SET,GlobalMedia,国外媒体 
   - RULE-SET,Instagram,Instagram
   - RULE-SET,Threads,Instagram
   - RULE-SET,Speedtest,Speedtest
