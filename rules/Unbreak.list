@@ -1,0 +1,16 @@
+# Unbreak
+# > General
+USER-AGENT,coffeecorp*
+USER-AGENT,restaurant-mobile*
+DOMAIN,app.adjust.com
+# > Google
+DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN,dl.google.com
+DOMAIN,mtalk.google.com
+# > TencentVideo for macOS
+DOMAIN-SUFFIX,vd.l.qq.com
+# > Strava
+DOMAIN,analytics.strava.com
+# > Umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
