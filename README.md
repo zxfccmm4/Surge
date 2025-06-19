@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🌟 Professional Surge Configuration Collection
-## Surge 配置文件集合
+## Surge Configuration file collection
 
 [![GitHub stars](https://img.shields.io/github/stars/zxfccmm4/Surge?style=social)](https://github.com/zxfccmm4/Surge)
 [![GitHub forks](https://img.shields.io/github/forks/zxfccmm4/Surge?style=social)](https://github.com/zxfccmm4/Surge)
